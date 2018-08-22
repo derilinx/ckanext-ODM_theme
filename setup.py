@@ -17,7 +17,7 @@ setup(
     # http://packaging.python.org/en/latest/tutorial.html#version
     version='0.0.1',
 
-    description='''ODM theme extension''',
+    description='''CKAN ODM Theme''',
     long_description=long_description,
 
     # The project's main homepage.
@@ -25,7 +25,7 @@ setup(
 
     # Author details
     author='''Wassim Derguech''',
-    author_email='''derguech@gmail.com''',
+    author_email='''wassim@derilinx.com''',
 
     # Choose your license
     license='AGPL',
