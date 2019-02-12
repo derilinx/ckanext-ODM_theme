@@ -1064,3 +1064,16 @@ a.header_tag:hover {
 .resource_explore_icon-eye{
 	width: 24px;
 }
+.container{
+       max-width:100%;
+}
+
+.masthead .navbar-collapse {
+    float: left;
+    padding-left: 30px;
+}
+
+.btn-lg {
+
+    height: 45px;
+}

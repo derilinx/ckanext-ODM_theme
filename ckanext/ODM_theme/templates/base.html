@@ -1,9 +1,9 @@
 {% ckan_extends %}
 
+{% block bodytag %} {{ super() }} class='odm' {% endblock %}
+
 {% block styles %}
-{{ super() }}
-
-
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Questrial|Barlow+Condensed|Barlow+Semi+Condensed" rel="stylesheet">
-
+    {{ super() }}
+    <link rel='stylesheet' id='odm-style-css'  href='/odm_local.css' type='text/css' media='all' />
+     <link rel='stylesheet' id='odm-style-css'  href='/odm_nav_local.css' type='text/css' media='all' />
 {% endblock %}
