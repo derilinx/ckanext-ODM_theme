@@ -1,37 +1,5 @@
 {% ckan_extends %}
-{% block odm_head %}
-<nav id="od-head">
-    <div class="container row">
-        <div class="col-sm-9 col-12">
-            <div class="site-meta">
-                <div id="od-logo">
-                        <span id="icon-od-logo">
-                            <svg class="svg-od-logo mekong-logo"><use xlink:href="#icon-od-logo"></use></svg>
-                        </span>
-                    <h1>Op<sup>e</sup>nDevelopment</h1>
-                    <div><h2 class="side-title">Mekong</h2></div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 col-12">
-            <div class="social">
-                <nav>
-                    <a href="https://www.facebook.com/OpenDevThailand/" target="_blank" rel="external" title="Facebook"><i
-                            class="fa fa-facebook-official"></i></a>
-                    <a href="https://twitter.com/opendevthai" target="_blank" rel="external" title="Twitter"><i
-                            class="fa fa-twitter-square"></i></a>
-                    <a href="https://thailand.opendevelopmentmekong.net/contacts/" title="Subscribe"><i
-                            class="fa fa-envelope"></i></a>
-                </nav>
-            </div>
-        </div>
-    </div>
-</nav>
-{% endblock %}
-
 
 {% block odm_nav %}
-
 {{ h.get_odm_navigation() | safe}}
-
 {% endblock %}
